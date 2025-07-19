@@ -1,13 +1,17 @@
 
- 💡Let's create a Pomodoro timer with modern JavaScript to practice
- using async/await and fixing errors. 
+ <p>💡Let's create a Pomodoro timer<br>
+ with modern JavaScript to practice<br>
+ using async/await and fixing errors.</p> 
+ <br>
  
-🍅 As a playful exploration of productivity 
- The Pomodoro technique consists of working for 25 minutes
- and resting for 5.
+<p>🍅 As a playful exploration of productivity <br>
+ The Pomodoro technique consists of working for 25 minutes<br>
+ and resting for 5.</p>
+ <br>
  
-🧰 Technologies
-HTML5
-CSS3
-JavaScript :async/await for task flow,
-try/catch/finally for error handling 
+<p>🧰 Technologies<br>
+HTML5<br>
+CSS3<br>
+JavaScript :async/await for task flow,<br>
+try/catch/finally for error handling</p>
+
