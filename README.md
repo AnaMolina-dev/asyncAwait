@@ -1,5 +1,6 @@
 👩‍💻 Creator
 Made with love by Ana, as a playful exploration of productivity and async JavaScript.
+Part of a presentation exploring the subject of async/ await and handling errors in JAVASCRIPT. 
 
 🌞 Daily Routine – Your home productivity assistant
 An interactive app built with HTML, CSS, and JavaScript to help organize your daily household tasks in a visual and playful way. From making breakfast to studying, “Rutina Diaria” guides you through each step with animations, progress tracking, and motivating messages.
