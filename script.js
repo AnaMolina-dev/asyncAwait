@@ -49,12 +49,20 @@ async function estudiar() {
 async function rutinaDiaria() {
   const log = document.getElementById("log");
   log.textContent = ""; // limpia contenido previo
+  actualizarBarra(0);
 
   try {
     await prepararDesayuno();
+    actualizarBarra(25);
+
     await pasearAlPerro();
+    actualizarBarra(50);
+
     await limpiarCasa();
+    actualizarBarra(75);
+
     await estudiar();
+    actualizarBarra(100);
   } catch (error) {
     escribir("❌ Error durante la rutina: " + error.message);
   } finally {
@@ -64,3 +72,7 @@ async function rutinaDiaria() {
   }
 }
 
+function actualizarBarra(porcentaje) {
+  const barra = document.getElementById("progreso");
+  barra.style.width = `${porcentaje}%`;
+}
